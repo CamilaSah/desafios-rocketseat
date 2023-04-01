@@ -1,0 +1,64 @@
+<!--Nesse desafio você vai criar um formulário para contato.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <fieldset>
+        <legend>Entre em contato</legend>
+        <br>
+        <form action="">
+            <label for="subjectselect">
+                <strong>
+                    Assunto:
+                </strong>
+            </label>
+            <select name="subject" id="subjectselect">
+                <option value="support">Suporte</option>
+                <option value="suggestion">Sugestão</option>
+                <option value="complaint">Reclamação</option>
+            </select>
+            <br>
+            <br>
+            <label for="name">
+                <strong>
+                    Nome Completo:
+                </strong>
+            </label>
+            <br>
+            <input type="text" id="name" placeholder="Seu nome">
+            <br>
+            <br>
+            <label for="email">
+                <strong>
+                    E-mail:
+                </strong>
+            </label>
+            <br>
+            <input type="email" id="email" placeholder="email@seudominio.com">
+            <br>
+            <br>
+            <label for="message">
+                <strong>
+                    Mensagem:
+                </strong>
+            </label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="checkbox" id="subscribed">
+            <label for="subscribed">Aceito receber novidades por e-mail</label>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+</body>
+</html>
